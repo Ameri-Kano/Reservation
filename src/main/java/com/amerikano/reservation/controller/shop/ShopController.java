@@ -31,10 +31,11 @@ public class ShopController {
      */
     @GetMapping("")
     public ResponseEntity<List<ShopDto>> searchShops(
+        @RequestParam(defaultValue = "1") Integer page,
         @RequestParam(required = false, defaultValue = "") String type,
         @RequestParam(required = false, defaultValue = "") String keyword
     ) {
-        return ResponseEntity.ok(shopService.showShopsByTypeAndKeyword(type, keyword));
+        return ResponseEntity.ok(shopService.showShopsByTypeAndKeyword(page, type, keyword));
     }
 
     /**
@@ -42,7 +43,8 @@ public class ShopController {
      */
     @GetMapping("/rate")
     public ResponseEntity<List<ShopDto>> searchShopsByRate(
+        @RequestParam(defaultValue = "1") Integer page
     ) {
-        return ResponseEntity.ok(shopService.showAllShopsByRate());
+        return ResponseEntity.ok(shopService.showAllShopsByRate(page));
     }
 }

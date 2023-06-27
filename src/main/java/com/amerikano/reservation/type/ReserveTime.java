@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 /**
- * 예약 시간을 정각별로 상수로 관리(가독성을 위해)
+ * 예약 시간 상수(가독성을 위해)
  */
 @Getter
 @NoArgsConstructor

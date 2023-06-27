@@ -27,9 +27,7 @@ public class SignUpController {
     public ResponseEntity<String> signUpManager(
         @RequestBody SignUpDto signUpDto
     ) {
-
-        signUpService.signUpManager(signUpDto);
-        return ResponseEntity.ok("점장 회원 가입이 완료되었습니다.");
+        return ResponseEntity.ok(signUpService.signUpManager(signUpDto));
     }
 
     /**
@@ -39,8 +37,6 @@ public class SignUpController {
     public ResponseEntity<String> signUpCustomer(
         @RequestBody SignUpDto signUpDto
     ) {
-
-        signUpService.signUpCustomer(signUpDto);
-        return ResponseEntity.ok("고객 회원 가입이 완료되었습니다.");
+        return ResponseEntity.ok(signUpService.signUpCustomer(signUpDto));
     }
 }

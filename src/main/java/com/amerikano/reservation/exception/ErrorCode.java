@@ -11,6 +11,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public enum ErrorCode {
+    EMAIL_ALREADY_EXIST("해당 이메일은 이미 사용중입니다."),
+    WRONG_PASSWORD("비밀번호가 일치하지 않습니다."),
+
+    WRONG_OLD_PASSWORD("현재 비밀번호가 올바르지 않습니다."),
+    PASSWORD_NO_CHANGE("현재 비밀번호와 새 비밀번호가 일치합니다."),
+
     USER_NOT_EXIST("해당 유저가 존재하지 않습니다."),
     SHOP_NOT_EXIST("해당 매장이 존재하지 않습니다."),
     RESERVATION_NOT_EXIST("해당 예약이 존재하지 않습니다."),
@@ -23,8 +29,7 @@ public enum ErrorCode {
     SHOP_MANAGER_NOT_EXIST("해당 매장의 점장 유저 정보가 존재하지 않습니다."),
     RESERVATION_CUSTOMER_NOT_EXIST("해당 예약의 고객 유저 정보가 존재하지 않습니다."),
 
-    WRONG_OLD_PASSWORD("현재 비밀번호가 올바르지 않습니다."),
-    PASSWORD_NO_CHANGE("현재 비밀번호와 새 비밀번호가 일치합니다.")
+    WRONG_PAGE_INDEX("잘못된 페이지 번호입니다."),
     ;
 
 
