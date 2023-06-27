@@ -33,7 +33,7 @@ public class ReservationAdminService {
         checkReservation(reservation);
 
         if (!shopRepository.existsByIdAndManagerId(
-                reservation.getShop().getId(), managerId
+            reservation.getShop().getId(), managerId
         )) {
             throw new ReservationServiceException(SHOP_NOT_EXIST);
         }

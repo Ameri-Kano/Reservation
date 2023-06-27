@@ -15,6 +15,7 @@ import java.util.Optional;
 public interface ShopRepository extends JpaRepository<Shop, Long> {
 
     Optional<Shop> findByIdAndManagerId(Long id, Long managerId);
+
     boolean existsByIdAndManagerId(Long id, Long managerId);
 
     Page<Shop> findAllByOrderByRateDesc(Pageable pageable);

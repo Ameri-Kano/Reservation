@@ -28,6 +28,7 @@ public class JwtAuthService {
 
     /**
      * 로그인 인증 정보를 담은 JWT Token 생성
+     *
      * @Param: 유저 고유 아이디, 이메일, 타입(점장 or 고객)
      * @Return: JWT Token String
      */
@@ -51,6 +52,7 @@ public class JwtAuthService {
 
     /**
      * 토큰에서 유저 정보(UserInfo) 가져오기
+     *
      * @Param: JWT Token String
      * @Return: UserInfo(id, email)
      */
@@ -68,6 +70,7 @@ public class JwtAuthService {
 
     /**
      * 토큰을 분석하여 유효 여부를 확인
+     *
      * @Param: JWT Token String
      * @Return: 토큰의 유효 여부
      */
@@ -90,6 +93,7 @@ public class JwtAuthService {
 
     /**
      * JWT 토큰에서 고유 id 값 얻어오기
+     *
      * @Param: JWT Token String
      * @Return: 토큰에 포함된 유저(점장, 손님) 고유 id
      */

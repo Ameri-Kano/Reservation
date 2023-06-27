@@ -25,7 +25,7 @@ public class ReservationAdminController {
     public ResponseEntity<String> acceptReservation(
         @RequestHeader(name = AUTH_HEADER) String token,
         @RequestParam String code
-    )  {
+    ) {
         return ResponseEntity.ok(
             reservationAdminService.acceptOrRefuseReservation(
                 authService.getIdFromToken(token),
@@ -39,7 +39,7 @@ public class ReservationAdminController {
     public ResponseEntity<String> refuseReservation(
         @RequestHeader(name = AUTH_HEADER) String token,
         @RequestParam String code
-    )  {
+    ) {
         return ResponseEntity.ok(
             reservationAdminService.acceptOrRefuseReservation(
                 authService.getIdFromToken(token),
