@@ -1,0 +1,544 @@
+GET http://localhost:8080/reservation/table/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T050224.200.json
+
+###
+
+POST http://localhost:8080/reservation/visit?code=50Ee8RbnET
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "김동역",
+  "phone": "010-1111-1111"
+}
+
+<> 2023-06-28T050219.400.json
+
+###
+
+GET http://localhost:8080/reservation/table/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T050207.200.json
+
+###
+
+GET http://localhost:8080/reservation/table/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T050151.200.json
+
+###
+
+GET http://localhost:8080/reservation/table/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T050141.200.json
+
+###
+
+GET http://localhost:8080/reservation/table/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T050124.200.json
+
+###
+
+POST http://localhost:8080/reservation/visit?code=50Ee8RbnET
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "김동역",
+  "phone": "010-1111-1111"
+}
+
+<> 2023-06-28T050121.400.json
+
+###
+
+GET http://localhost:8080/reservation/table/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T050115.200.json
+
+###
+
+GET http://localhost:8080/reservation/table/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T050103.200.json
+
+###
+
+GET http://localhost:8080/reservation/table/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045950.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045859.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045854.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045842.200.json
+
+###
+
+GET http://localhost:8080/customer/review
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045708.200.json
+
+###
+
+GET http://localhost:8080/customer/review
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045702.200.json
+
+###
+
+GET http://localhost:8080/customer/review
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045650.200.json
+
+###
+
+GET http://localhost:8080/customer/review
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045527.200.json
+
+###
+
+GET http://localhost:8080/customer/review?page=1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045514.200.json
+
+###
+
+GET http://localhost:8080/customer/review?page=0
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045512.400.json
+
+###
+
+GET http://localhost:8080/customer/review?page=1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045508.200.json
+
+###
+
+GET http://localhost:8080/customer/review?page=2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045505.200.json
+
+###
+
+GET http://localhost:8080/customer/review
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T045447.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T044327.200.json
+
+###
+
+PUT http://localhost:8080/customer/review/lLFZqwQ0Xf
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Content-Length: 93
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "애매해요!",
+  "detail": "다시 오기 애매해요!",
+  "rate": "STAR_3"
+}
+
+<> 2023-06-28T044324.200.txt
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T044314.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T044148.200.json
+
+###
+
+DELETE http://localhost:8080/customer/review/delete?code=lLFZqwQ0Xf
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T044133.200.txt
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T044046.200.json
+
+###
+
+POST http://localhost:8080/customer/review/50Ee8RbnET
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Content-Length: 110
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "맛있는것 같아요!",
+  "detail": "다시 오고 싶을것 같아요!",
+  "rate": "STAR_4"
+}
+
+<> 2023-06-28T043905.200.txt
+
+###
+
+POST http://localhost:8080/customer/review/50Ee8RbnET
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Content-Length: 110
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "맛있는것 같아요!",
+  "detail": "다시 오고 싶을것 같아요!",
+  "rate": "STAR_4"
+}
+
+<> 2023-06-28T042857.400.json
+
+###
+
+POST http://localhost:8080/customer/review/50Ee8RbnET
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Content-Length: 110
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "맛있는것 같아요!",
+  "detail": "다시 오고 싶을것 같아요!",
+  "rate": "STAR_4"
+}
+
+<> 2023-06-28T042736.500.json
+
+###
+
+POST http://localhost:8080/customer/review/50Ee8RbnET
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Content-Length: 110
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "맛있는것 같아요!",
+  "detail": "다시 오고 싶을것 같아요!",
+  "rate": "STAR_4"
+}
+
+<> 2023-06-28T042655.500.json
+
+###
+
+POST http://localhost:8080/customer/review/lLFZqwQ0Xf
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "맛있어요!",
+  "detail": "다시 오고 싶어요!",
+  "rate": "STAR_5"
+}
+
+<> 2023-06-28T042426.200.txt
+
+###
+
+DELETE http://localhost:8080/customer/review/delete?code=lLFZqwQ0Xf
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T042416.200.txt
+
+###
+
+DELETE http://localhost:8080/customer/review/delete?code=lLFZqwQ0Xf
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T040821.200.txt
+
+###
+
+DELETE http://localhost:8080/customer/review/delete?code=lLFZqwQ0Xf
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T040007.200.txt
+
+###
+
+DELETE http://localhost:8080/customer/review/delete?code=lLFZqwQ0Xf
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T035448.200.txt
+
+###
+
+DELETE http://localhost:8080/customer/review/delete?code=lLFZqwQ0Xf
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T035426.200.txt
+
+###
+
+DELETE http://localhost:8080/customer/review/delete?code=lLFZqwQ0Xf
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T035329.500.json
+
+###
+
+DELETE http://localhost:8080/customer/review/delete?code=lLFZqwQ0Xf
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T035025.500.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T034941.200.json
+
+###
+
+PUT http://localhost:8080/customer/review/lLFZqwQ0Xf
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxIiwic3ViIjoieWVva2tpbTEzQG5hdmVyLmNvbSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODc4NjcyNzIsImV4cCI6MTY4Nzk1MzY3Mn0.7iMc_fsXCHMhx06NDn-uTASYEMgr0oI5hE5JVLehguE
+Content-Length: 93
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "애매해요!",
+  "detail": "다시 오기 애매해요!",
+  "rate": "STAR_3"
+}
+
+<> 2023-06-28T034918.200.txt
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T032021.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T031519.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T031328.200.json
+
+###
+
+GET http://localhost:8080/shop?keyword=오리
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T031321-1.200.json
+
+###
+
+GET http://localhost:8080/shop?keyword=오리
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T031321.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T031319.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T031040.200.json
+
+###
+
+GET http://localhost:8080/shop/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-28T025601.200.json
+
+###
+

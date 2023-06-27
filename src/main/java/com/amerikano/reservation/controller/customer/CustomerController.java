@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * 고객 정보 api 컨트롤 (토큰 필요)
+ * 고객 정보 api 컨트롤러
  * <p>
  * 모든 기능은 로그인 확인을 위한 토큰 필요
  */

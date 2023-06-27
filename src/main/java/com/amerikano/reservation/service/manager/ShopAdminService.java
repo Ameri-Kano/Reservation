@@ -23,7 +23,7 @@ public class ShopAdminService {
     private final ManagerRepository managerRepository;
 
     /**
-     * 서비스 처리 전 해당 점장 유저가 존재하는지 확인
+     * 해당 점장 유저가 존재하는지 확인
      */
     private boolean isManagerExists(Long managerId) {
         return managerRepository.existsById(managerId);
@@ -54,8 +54,7 @@ public class ShopAdminService {
             throw new ReservationServiceException(ErrorCode.SHOP_MANAGER_NOT_EXIST);
         }
 
-        Shop shop = shopRepository.findByIdAndManagerId(managerId, updateShopDto.getId())
-            .orElseThrow(() -> new ReservationServiceException(ErrorCode.SHOP_NOT_EXIST));
+        Shop shop = shopFromManagerIdAndShopID(managerId, updateShopDto.getId());
 
         shop.setName(updateShopDto.getName());
         shop.setType(updateShopDto.getType());
@@ -74,9 +73,16 @@ public class ShopAdminService {
             throw new ReservationServiceException(ErrorCode.SHOP_MANAGER_NOT_EXIST);
         }
 
-        Shop shop = shopRepository.findByIdAndManagerId(managerId, shopId)
-            .orElseThrow(() -> new ReservationServiceException(ErrorCode.SHOP_NOT_EXIST));
+        Shop shop = shopFromManagerIdAndShopID(managerId, shopId);
 
         shopRepository.delete(shop);
+    }
+
+    /**
+     * 해당 점장 유저가 관리하는 매장이 맞는지 확인
+     */
+    private Shop shopFromManagerIdAndShopID(Long managerId, Long shopId) {
+        return shopRepository.findByIdAndManagerId(shopId, managerId)
+            .orElseThrow(() -> new ReservationServiceException(ErrorCode.SHOP_NOT_EXIST));
     }
 }

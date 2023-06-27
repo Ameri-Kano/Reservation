@@ -1,5 +1,6 @@
 package com.amerikano.reservation.service.reservation;
 
+import com.amerikano.reservation.entity.Reservation;
 import com.amerikano.reservation.entity.dto.reservation.TimeTableDto;
 import com.amerikano.reservation.entity.repository.ReservationRepository;
 import com.amerikano.reservation.entity.repository.ShopRepository;
@@ -39,6 +40,8 @@ public class ReservationTableService {
         Map<LocalDate, List<TimeTableDto>> reservationTable = new HashMap<>();
 
         reservationRepository.findAllByShopIdOrderByReservedDate(shopId)
+            .stream()
+            .filter(this::checkReservation)
             .forEach(reservation -> {
                     LocalDate key = reservation.getReservedDate();
                     reservationTable.putIfAbsent(key, new ArrayList<>());
@@ -69,6 +72,7 @@ public class ReservationTableService {
 
         return reservationRepository.findAllByShopIdAndReservedDate(shopId, date)
             .stream()
+            .filter(this::checkReservation)
             .map(reservation ->
                 TimeTableDto.builder()
                     .id(reservation.getId())
@@ -76,5 +80,14 @@ public class ReservationTableService {
                     .timeString(reservation.getReserveTime().getTimeString())
                     .build())
             .collect(Collectors.toList());
+    }
+
+    /**
+     * 자리를 차지하고 있는 예약인지 확인(승인되었으며, 취소되지 않은)
+     */
+    private boolean checkReservation(Reservation reservation) {
+        return reservation.getAccepted() != null &&
+            reservation.getAccepted() &&
+            !reservation.getCanceled();
     }
 }

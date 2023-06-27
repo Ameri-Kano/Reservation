@@ -27,13 +27,13 @@ public class Reservation extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String code;
+
     private Long customerId;
 
     @ManyToOne
     @JoinColumn(name = "shop_id")
     private Shop shop;
-
-    private String code;
 
     private LocalDate reservedDate;
 

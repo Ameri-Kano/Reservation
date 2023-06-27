@@ -2,6 +2,7 @@ package com.amerikano.reservation.controller.reservation;
 
 import com.amerikano.reservation.encryption.service.JwtAuthService;
 import com.amerikano.reservation.entity.dto.customer.ReservationForm;
+import com.amerikano.reservation.entity.dto.reservation.ReservationDto;
 import com.amerikano.reservation.entity.dto.reservation.UpdateReservationDto;
 import com.amerikano.reservation.service.reservation.CustomerReservationService;
 import lombok.RequiredArgsConstructor;
@@ -16,7 +17,7 @@ import java.util.List;
  * 모든 기능은 로그인 확인을 위한 토큰 필요
  */
 @RestController
-@RequestMapping("reservation/customer")
+@RequestMapping("customer/reservation")
 @RequiredArgsConstructor
 public class CustomerReservationController {
 
@@ -44,7 +45,7 @@ public class CustomerReservationController {
      * 고객의 모든 예약 조회
      */
     @GetMapping
-    public ResponseEntity<List<ReservationForm.ResponseDto>> showReservation(
+    public ResponseEntity<List<ReservationDto>> showReservation(
         @RequestHeader(name = AUTH_HEADER) String token
     ) {
         return ResponseEntity.ok(
@@ -66,5 +67,19 @@ public class CustomerReservationController {
                 updateReservationDto
             )
         );
+    }
+
+    /**
+     * 예약 취소 (예약 고유 코드 활용)
+     */
+    @PatchMapping("cancel")
+    public ResponseEntity<String> cancelReservation(
+        @RequestHeader(name = AUTH_HEADER) String token,
+        @RequestParam String code
+    ) {
+        reservationService.cancelReservation(
+            authService.getIdFromToken(token), code
+        );
+        return ResponseEntity.ok("예약 취소가 완료되었습니다.");
     }
 }

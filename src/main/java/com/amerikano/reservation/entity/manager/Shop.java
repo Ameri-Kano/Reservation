@@ -5,6 +5,8 @@ import com.amerikano.reservation.entity.Review;
 import com.amerikano.reservation.entity.dto.shop.RegisterShopDto;
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.CascadeType;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +37,7 @@ public class Shop extends BaseEntity {
 
     @Column(columnDefinition = "double default 0.0")
     private Double rate;
+
     @OneToMany
     private List<Review> reviews;
 

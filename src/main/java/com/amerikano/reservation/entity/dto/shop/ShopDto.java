@@ -1,13 +1,16 @@
 package com.amerikano.reservation.entity.dto.shop;
 
 import com.amerikano.reservation.entity.Review;
+import com.amerikano.reservation.entity.dto.ReviewDto;
 import com.amerikano.reservation.entity.manager.Shop;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 매장 정보 DTO
@@ -25,7 +28,7 @@ public class ShopDto {
     private String description;
     private String phone;
     private Double rate;
-    private List<Review> reviews;
+    private List<ReviewDto> reviews;
 
     // Entity -> DTO
     public static ShopDto from(Shop shop) {
@@ -37,7 +40,30 @@ public class ShopDto {
             .description(shop.getDescription())
             .phone(shop.getPhone())
             .rate(shop.getRate())
-            .reviews(shop.getReviews())
+            .reviews(fromReviews(shop.getReviews()))
             .build();
+    }
+
+    /**
+     * 매장 조회에 표시되는 리뷰는 최근 5개까지
+     */
+    private static List<ReviewDto> fromReviews(List<Review> reviews) {
+        List<ReviewDto> reviewDtos;
+
+        if (reviews.size() > 5) {
+            reviewDtos = reviews.stream()
+                .filter(review -> !review.getDeleted())
+                .skip(reviews.size() - 5)
+                .map(ReviewDto::from)
+                .collect(Collectors.toList());
+        } else {
+            reviewDtos = reviews.stream()
+                .filter(review -> !review.getDeleted())
+                .map(ReviewDto::from)
+                .collect(Collectors.toList());
+        }
+
+        Collections.reverse(reviewDtos);
+        return reviewDtos;
     }
 }

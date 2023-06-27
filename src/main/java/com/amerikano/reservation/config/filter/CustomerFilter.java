@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * 고객만 이용할 수 있는 기능에 대한 토큰 체크 필터 (고객 정보 수정, 예약 관련 기능)
  */
-@WebFilter(urlPatterns = {"/customer/*", "/reservation/customer/*"})
+@WebFilter(urlPatterns = {"/customer/*"})
 @RequiredArgsConstructor
 public class CustomerFilter implements Filter {
 

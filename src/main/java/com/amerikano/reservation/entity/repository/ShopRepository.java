@@ -14,11 +14,10 @@ import java.util.Optional;
 @Repository
 public interface ShopRepository extends JpaRepository<Shop, Long> {
 
-    Optional<Shop> findByIdAndManagerId(Long managerId, Long id);
+    Optional<Shop> findByIdAndManagerId(Long id, Long managerId);
+    boolean existsByIdAndManagerId(Long id, Long managerId);
 
     Page<Shop> findAllByOrderByRateDesc(Pageable pageable);
-
-    Page<Shop> findAllByOrderByNameAsc(Pageable pageable);
 
     Page<Shop> findAllByTypeLikeAndNameLikeOrderByNameAsc(String type, String name, Pageable pageable);
 
