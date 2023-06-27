@@ -45,7 +45,7 @@ public class SignUpService {
      */
     public String signUpCustomer(SignUpDto signUpDto) {
         // 가입하려는 이메일이 이미 사용중인 경우
-        if(customerRepository.existsByEmail(signUpDto.getEmail())) {
+        if (customerRepository.existsByEmail(signUpDto.getEmail())) {
             throw new ReservationServiceException(EMAIL_ALREADY_EXIST);
         }
 

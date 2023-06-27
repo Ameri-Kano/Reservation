@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 /**
- *  에러 코드
+ * 에러 코드
  */
 @Getter
 @NoArgsConstructor

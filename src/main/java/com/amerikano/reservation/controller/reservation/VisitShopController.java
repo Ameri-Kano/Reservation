@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 public class VisitShopController {
 
     private final CustomerReservationService reservationService;
+
     /**
      * 고객이 가게를 방문했을 때 처리
      */

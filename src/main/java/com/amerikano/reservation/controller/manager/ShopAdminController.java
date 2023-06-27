@@ -24,7 +24,7 @@ public class ShopAdminController {
     private final JwtAuthService authService;
 
     /**
-     *  매장 등록
+     * 매장 등록
      */
     @PostMapping
     public ResponseEntity<ShopDto> registerShop(
@@ -40,7 +40,7 @@ public class ShopAdminController {
     }
 
     /**
-     *  매장 수정
+     * 매장 수정
      */
     @PutMapping
     public ResponseEntity<ShopDto> updateShop(
@@ -56,7 +56,7 @@ public class ShopAdminController {
     }
 
     /**
-     *  매장 삭제
+     * 매장 삭제
      */
     @DeleteMapping
     public ResponseEntity<String> deleteShop(

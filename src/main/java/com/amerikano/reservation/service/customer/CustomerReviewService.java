@@ -142,7 +142,7 @@ public class CustomerReviewService {
         }
 
         return reviewRepository.findAllByCustomerIdAndDeletedIsFalseOrderByLastModifiedAtDesc(
-            customerId, PageRequest.of(page - 1, 10))
+                customerId, PageRequest.of(page - 1, 10))
             .stream()
             .map(ReviewDto::from).collect(Collectors.toList());
     }

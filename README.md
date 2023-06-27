@@ -2,7 +2,13 @@
 
 매장을 방문할 때 미리 방문 예약을 진행하게 도와주는 서비스
 
-사용 기술 : spring boot, jpa, mySQL
+### 사용 기술  
+* spring boot
+* jpa
+* mySQL
+* jwt
+* apache commons lang3
+* swagger (API Document)
 
 - - -
 
